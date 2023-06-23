@@ -15,6 +15,7 @@ public class HashSetConcepts {
 		al.add("Mercedes");
 		al.add("Acura");
 		al.add("Porsche");
+		
 
 		
 		System.out.println(al.size());
@@ -36,14 +37,18 @@ public class HashSetConcepts {
 		//get index of elements in Set -> convert it to a Arraylist or linkedlist
 		ArrayList<String> list = new ArrayList<>(al);
 		LinkedList<String> Linklist = new LinkedList<>(al);
+		
+		System.out.println("---- after converting to array list-----");
 		System.out.println(list);
+		System.out.println(list.get(3));
 		
 		for (int i=0;i<list.size(); i++ ) {
 			System.out.println(list.get(i));		
 		}
 		
-		System.out.println("--------------------------------");
-		//for -each
+		System.out.println("------------Enhanced for loop--------------------");
+		
+		//for -each - enhanced for loop
 		for(String i:al) {
 			System.out.println(i);
 		}
