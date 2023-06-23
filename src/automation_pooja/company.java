@@ -9,8 +9,8 @@ public class company {
 	public String getCName() {
 		return CName;
 	}
-	public void setCName(String cNam) {
-		CName = cNam;
+	public void setCName(String cName) {
+		CName = cName;
 	}
 	public int getCTotalEmp() {
 		return CTotalEmp;

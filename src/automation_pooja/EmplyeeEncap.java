@@ -3,27 +3,27 @@ package automation_pooja;
 
 public class EmplyeeEncap {
 
-	// Encapsulation is a process for rapping up of data into single unit 
+	// Encapsulation is a process for raping up of data into single unit 
 	//we use private keyword so that it cannot be access outside the class
 	//getter and setter methods is created
 	
-	private String EFirstN;
-	private String ELastN;
+	private String EFirstName;
+	private String ELastName;
 	private String EDOB;
 	private int EAge;
 	private int ENo;
 	
 	public String getEFirstName() {
-		return EFirstN;
+		return EFirstName;
 	}
 	public void setEFirstName(String eFirstName) {
-		EFirstN = eFirstName;
+		EFirstName = eFirstName;
 	}
 	public String getELastName() {
-		return ELastN;
+		return ELastName;
 	}
 	public void setELastName(String eLastName) {
-		ELastN = eLastName;
+		ELastName = eLastName;
 	}
 	public String getEDOB() {
 		return EDOB;
