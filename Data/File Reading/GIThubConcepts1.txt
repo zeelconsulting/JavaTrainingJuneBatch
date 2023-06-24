@@ -1,0 +1,57 @@
+
+Steps to update the repo once it is uploaded to github -
+
+1. change the code
+2. open git bash
+3. git add .
+4. git commit -m "text to show when pushed"
+5. git push
+6. git in github, project should be updated
+
+
+to pull the changes done by someone else -
+1.open git bash
+2.git pull
+
+to get the status of code
+git status
+
+
+push code from one branch to another
+1. add code to the branch
+2. commit it
+3. create pull request for Master branch
+4. Merge it
+5. Branch code will be updated in the master branch
+
+to get project from someone else's repo - 
+1. fork -> get the project from diff user to my repositories
+2. download it -> upload it into your repo using git init
+
+
+
+
+to get the already created github project in local - 
+
+1. to download zip file -> not recommended -> as it will not have any connection with github after downloading it
+
+2. using git clone - if want to update the same project
+	git clone "url for your project"
+	e.g - git clone"https://github.com/himanshu078/SampleAutomation.git"
+
+
+
+git remote -v    -> give the git url from which the project is cloned
+
+
+
+Global project (zeelconsulting) -> fork -> local project (Himanshu repo) -> clone it to local workspace-> import it in Eclipse -> updated the files -> pushed it to local project (Himanshu repo) -> created a pull request to the global repo -> approve the pull request -> gobal project is updated.
+
+
+For Jenkins -
+1. Install Jenkins
+2. Add Maven in tool configuration
+3. Download plugins for Maven and HTML publisher
+
+
+
